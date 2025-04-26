@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USING-HOVER</title>
+    <style>
+
+        h1 {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: 600;
+            font-size: 3em;
+        }
+
+        div:hover{
+            color: red;
+        }
+    
+        div > p {
+            display: none;
+        }
+
+        div:hover > p {
+            display: block;
+            color: white;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Usando Hover</h1>
+    <p>Passe o Mouse Abaixo</p>
+
+        <div>
+            Passe o Mouse Aqui
+            <p>TEXT HIDE</p>
+        </div>
+    <P>FINAL DO TESTE</P>
+</body>
+</html>

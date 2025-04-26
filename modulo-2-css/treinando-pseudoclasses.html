@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinando Pseudoclasses</title>
+    <style>
+        h1 {
+            font: italic bolder 3em verdana, serif;
+        }
+        li {
+            font: normal bold 3em arial, serif;
+        }
+        a {
+            text-decoration: none;
+        }
+        a:hover {
+            color: orange;
+            text-decoration: underline;
+        }
+        a:active {
+            color: red;
+        }
+        .especial {
+            background-color: rgb(242, 170, 108);
+            color: white;
+        }
+        .especial::before {
+            content: '⇒ ';
+        }
+        .especial::after {
+            content: ' ⇐';
+        }
+        .especial:hover {
+            color: blue;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+
+        <ul>
+            <li><a href="https://www.facebook.com/ceesinhamed97" target="_blank">Me Siga no Facebook</a></li></li>
+            <li><a href="https://www.instagram.com/cesar.med97" target="_blank">Me Siga No Instagram</a></li>
+            <li><a href="https://x.com/cesinhamed97" class="especial" target="_blank">Me Siga No X</a></li>
+            <li><a href="https://www.cursoemvideo.com" target="_blank">Site Do Curso em Video</a></li>
+        </ul>
+</body>
+</html>

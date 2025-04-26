@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            margin: 10px;
+            padding: 20px;
+            font-family: Verdana, Tahoma, sans-serif;
+        }
+        h1 {
+            box-shadow: 5px 8px 9px 1px gray;
+        }
+        nav {
+            background-color: dimgray;
+            padding: 3px;
+        }
+        nav > a {
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article {
+            background-color: lightgray;
+            padding: 10px;
+        }
+        article > aside {
+            background-color: rgb(156, 154, 154);
+        }
+        footer > p {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="https://www.facebook.com/ceesinhamed97" target="_blank">Face</a>
+            <a href="https://www.instagram.com/cesar.med97" target="_blank">Instagram</a>
+            <a href="https://x.com/cesinhamed97" target="_blank">Twitter -X</a>
+            <a href="https://www.estudonauta.com/" target="_blank">Estudonauta</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politíca Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias Sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur alias id veniam perferendis,
+                    suscipit doloremque adipisci modi provident ex sed impedit aspernatur cupiditate fuga quasi
+                    architecto? Rem pariatur laudantium similique? Lorem ipsum, dolor sit amet consectetur adipisicing
+                    elit. Sapiente laboriosam delectus corporis aperiam cumque deserunt animi, illum saepe doloremque
+                    nemo eveniet facere rerum voluptas dolore sed fugit voluptatum. Blanditiis, saepe!</p>
+                <aside>
+                    <p>Artigo Escrito Por Rômulo César</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por DevCesar</p>
+    </footer>
+</body>
+
+</html>
