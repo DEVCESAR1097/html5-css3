@@ -4,5 +4,5 @@ Estudos de Programação
 Estou aprendendo HTML5 E CSS3 e agora vou gerenciar
 meus repositórios no GitHub. 
 
-<a herf="https://devcesar1097.github.io/html5-css3/exercicios.html" target="_blank">
+<a herf="https://devcesar1097.github.io/html5-css3/exercicios/index-video-hospedagem.html" target="_blank">
 executar o index-video-hospedagem</a>
